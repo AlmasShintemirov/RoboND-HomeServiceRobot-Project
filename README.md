@@ -6,18 +6,23 @@ to pickup and drop off zones of a virtual object.
 
 ## Installation
 
-git clone git clone https://github.com/AlmasShintemirov/RoboND-HomeServiceRobot-Project.git to your "catkin_ws"/src folder
+Install xterm 
 
-cd ..
+    sudo apt-get install xterm 
 
-catkin_make
+    git clone git clone https://github.com/AlmasShintemirov/RoboND-HomeServiceRobot-Project.git to your "catkin_ws"/src folder
 
-source devel/setup.bash
+    cd ..
+
+    catkin_make
+
+    source devel/setup.bash
 
 ## Running
 
 Shell scripts located in src/scripts folder are used for executing corresponding ROS nodes (launch files in packages) in 
-separate xterm terminal windows. To install xterm use sudo apt-get install xterm 
+separate xterm terminal windows. 
+
 
 The robot uses ROS Gmapping (http://wiki.ros.org/gmapping) and Teleop_twist_keyboard (http://wiki.ros.org/teleop_twist_keyboard) packages for autonomous mapping of a custom Gazebo world environment ( test_slam.sh shell script ).
 
