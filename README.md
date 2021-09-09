@@ -6,7 +6,13 @@ to pickup and drop off zones of a virtual object.
 
 ## Installation
 
+git clone git clone https://github.com/AlmasShintemirov/RoboND-HomeServiceRobot-Project.git to your "catkin_ws"/src folder
 
+cd ..
+
+catkin_make
+
+source devel/setup.bash
 
 ## Running
 
