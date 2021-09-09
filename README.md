@@ -13,11 +13,8 @@ Install xterm
 Clone and compile project files to/in your "catkin_ws"/src folder
 
     git clone git clone https://github.com/AlmasShintemirov/RoboND-HomeServiceRobot-Project.git 
-
     cd ..
-
     catkin_make
-
     source devel/setup.bash
 
 ## Running
@@ -45,10 +42,10 @@ Use add_markers.sh shell script to run the node and marker visualization in Rviz
 The final scenario is deployed using home_service.sh shell script. 
 It follows the following algorithm:
 
-        Initially show the marker at the pickup zone
-        Hide the marker once your robot reaches the pickup zone
-        Wait 5 seconds to simulate a pickup
-        Show the marker at the drop off zone once your robot reaches it
+       Initially show the marker at the pickup zone
+       Hide the marker once your robot reaches the pickup zone
+       Wait 5 seconds to simulate a pickup
+       Show the marker at the drop off zone once your robot reaches it
 
 ![Screenshot from 2021-09-07 20-48-12](https://user-images.githubusercontent.com/13367696/132625138-75cd826b-93b8-47d8-941d-755a8768e534.png)
 ![Screenshot from 2021-09-07 20-49-16](https://user-images.githubusercontent.com/13367696/132625157-5f2ed563-be5d-43f8-8f68-57a8639a69d5.png)
