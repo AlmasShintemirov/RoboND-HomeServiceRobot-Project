@@ -9,6 +9,8 @@ to pickup and drop off zones of a virtual object.
 Install xterm 
 
     sudo apt-get install xterm 
+    
+Clone and compile project files to/in your "catkin_ws"/src folder
 
     git clone git clone https://github.com/AlmasShintemirov/RoboND-HomeServiceRobot-Project.git to your "catkin_ws"/src folder
 
