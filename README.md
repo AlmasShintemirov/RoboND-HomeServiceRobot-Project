@@ -1,13 +1,19 @@
 # RoboND-HomeServiceRobot-Project
-Udacity Robotics Software 
+Udacity Udacity Robotics Software Engineer Nanodegree Final Project
+
 This project implements a home service robot scenario for autonomous navigation of a skid-steer mobile robot 
 to pickup and drop off zones of a virtual object. 
+
+## Installation
+
+
+
+## Running
 
 Shell scripts located in src/scripts folder are used for executing corresponding ROS nodes (launch files in packages) in 
 separate xterm terminal windows. To install xterm use sudo apt-get install xterm 
 
-The robot uses ROS Gmapping and Teleop_twist_keyboard packages for autonomous mapping of a custom Gazebo world 
-environment ( test_slam.sh shell script ).
+The robot uses ROS Gmapping (http://wiki.ros.org/gmapping) and Teleop_twist_keyboard (http://wiki.ros.org/teleop_twist_keyboard) packages for autonomous mapping of a custom Gazebo world environment ( test_slam.sh shell script ).
 
 Adaptive Monte Carlo Localisation (ROS AMCL package http://wiki.ros.org/amcl) is used for robot localization and 
 deploying ROS Navigation stack for navigate to prediefined object pick up and drop off zones. 
