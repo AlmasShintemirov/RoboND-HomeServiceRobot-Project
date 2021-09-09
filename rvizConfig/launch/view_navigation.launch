@@ -1,0 +1,6 @@
+<!--
+  Used for visualising my home service robot while building a map or navigating with the ros navistack.
+ -->
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rvizConfig)/rviz/navigation_markers.rviz"/>
+</launch>

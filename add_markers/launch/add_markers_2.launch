@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <node pkg="add_markers" type="add_markers_2" name="add_markers_2"  output="screen">
+  </node>
+</launch>
