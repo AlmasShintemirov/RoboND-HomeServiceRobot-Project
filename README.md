@@ -12,7 +12,7 @@ Install xterm
     
 Clone and compile project files to/in your "catkin_ws"/src folder
 
-    git clone git clone https://github.com/AlmasShintemirov/RoboND-HomeServiceRobot-Project.git to your "catkin_ws"/src folder
+    git clone git clone https://github.com/AlmasShintemirov/RoboND-HomeServiceRobot-Project.git 
 
     cd ..
 
@@ -24,7 +24,6 @@ Clone and compile project files to/in your "catkin_ws"/src folder
 
 Shell scripts located in src/scripts folder are used for executing corresponding ROS nodes (launch files in packages) in 
 separate xterm terminal windows. 
-
 
 The robot uses ROS Gmapping (http://wiki.ros.org/gmapping) and Teleop_twist_keyboard (http://wiki.ros.org/teleop_twist_keyboard) packages for autonomous mapping of a custom Gazebo world environment ( test_slam.sh shell script ).
 
@@ -50,4 +49,9 @@ Initially show the marker at the pickup zone
 Hide the marker once your robot reaches the pickup zone
 Wait 5 seconds to simulate a pickup
 Show the marker at the drop off zone once your robot reaches it
+
+![Screenshot from 2021-09-07 20-48-12](https://user-images.githubusercontent.com/13367696/132625138-75cd826b-93b8-47d8-941d-755a8768e534.png)
+![Screenshot from 2021-09-07 20-49-16](https://user-images.githubusercontent.com/13367696/132625157-5f2ed563-be5d-43f8-8f68-57a8639a69d5.png)
+![Screenshot from 2021-09-07 20-49-45](https://user-images.githubusercontent.com/13367696/132625161-9e3f2a8c-54d2-4a46-9f82-951b528b45aa.png)
+
 
